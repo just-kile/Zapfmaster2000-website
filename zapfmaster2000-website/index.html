@@ -1,0 +1,319 @@
+<html>
+<head>
+<title>Zapfmaster2000 - Bierzapfstatistikprogramm</title>
+<meta charset="UTF-8" />
+<meta name="description" content="">
+<meta name="author" content="Ben Lenser">
+<meta name="keywords" content="Zapfmaster2000, Bier, Zapfen, Bierstatistik, Zapfmaster, Bierzapfstatistikprogramm, Trinken, Trinkstatistik">
+<title>Zapfmaster2000 - Beerdraft of the Future</title>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+<script src="js/lib/jquery-1.8.1.min.js"></script>
+<script src="js/lib/jquery-ui-1.9.0.custom/js/jquery-ui-1.9.0.custom.min.js"></script>
+<script  src="js/script.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-35963316-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script> 
+</head>
+<body>
+
+<div class="zm_navigation">
+<ul>
+<li class="active" ><div style="display:none" class="speechbubble"><span>News</span><div class="triangle"></div></div></li>
+<li><div style="display:none" class="speechbubble"><span>Komponenten</span><div class="triangle"></div></div></li>
+<li><div style="display:none" class="speechbubble"><span>Features</span><div class="triangle"></div></div></li>
+<li><div style="display:none" class="speechbubble"><span>ZM Lite</span><div class="triangle"></div></div></li>
+<li><div style="display:none" class="speechbubble"><span>T-Shirts-Facebook-Twitter</span><div class="triangle"></div></div></li>
+<li><div style="display:none" class="speechbubble"><span>Early Bird</span><div class="triangle"></div></div></li>
+
+
+</ul>
+
+</div>
+<div class="main">
+	<div class="top shadowBottom">
+		<!-- <img src="images/zapfmaster2000.png" height="350"/> -->
+	</div>
+	<!-- <div class="navi" >
+		<div class="content">
+			<div class="logo"><img src="images/zapfmaster2000.png" height="50"/></div>
+			<div class="navigation">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#about">About Zapfmaster</a></li>
+					<li><a href="#applite">ZM 2K App lite</a></li>
+					<li><a href="#impressum">Impressum</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	 -->
+		<div id="news" class="navi_content ">
+		<div class="cont">
+		<!-- Opener -->
+			<div class="leaf" >
+				<div class="t1_slide">
+					  <img src="images/bild1.png" height="400px" />
+				</div>
+				<div class="t1_text">
+					<span class="teaser">Introducing</span><br />
+					<p><span class="headline"><img src="images/pure_zm.png" width="300" /></span></p>
+					<span class="description">
+						Das Bierzapfstatistik - Programm! Eine ausgeklügelte Suite von Webapp, Tablet-  sowie Iphone- /Android- / Windowsphone- App.
+						Basierend auf Modernster Technik, hochperformantem RESTful Backend und HTML5 / AJAX Frontend. 
+					 </span>
+					 <div class="knowMorebtn" zm-href="components">Learn More</div>
+				</div>
+				
+			</div>
+			<!-- Komponenten -->
+				<div class="leaf" style="display:none;opacity:0;" >
+				<div class="t2_wifi1">
+					<img src="images/wifi.png" />
+				</div>
+				<div class="t2_wifi2">
+					<img src="images/wifi.png" />
+				</div>
+				<div class="t2_slide">
+					  <img src="images/handy1.png" height="400px" />
+				</div>
+				<div class="t2_text">
+					<span class="teaser">Introducing</span><br />
+					<p><span class="headline"><img src="images/pure_zm_lite.png" width="300" /></span></p>
+					<div class="description">
+						Zapfmaster 2000 ohne zapfen! Mit der neuen App für iOS/Android kannst du die Zapfmaster Features auch ohne Zapfanlage nutzen. <br />Willst du mehr wissen?
+					 </div>
+					 <div class="knowMorebtn" zm-href="zmlite">Learn More</div>
+				</div>
+				<div class="t2_slide1">
+					  <img src="images/handy2.png" height="400px" />
+				</div>
+	
+			</div>
+
+			
+
+			<div class="pagination">
+					
+			</div>
+		</div>
+	</div>
+	<div id="components" class="cont2 shadowTop navi_content">
+		
+		<div class="colContainer">
+		<div><h1>Komponenten</h1></div>
+			<div>
+				<div class="col ">
+					<div class="colWrapper textCol">
+						<center><img src="images/about/box.jpg" width="200px"/><h2>ZM2k Draft Kit</h2></center>
+						<div class="text"><span>Das Zapfmaster2000 Draft Kit in Kombination mit dem Swissflow&copy; SF800 sorgt zum einen für die Anmeldung der Konsumenten zum Bierzapfen
+						als auch für die korrekte Übermittlung der gezapften Biermenge. <br />
+						Die Impulsdaten des Durchlaufsensors werden an einen Webservice über eine REST-Api weitergeleitet und von dort aus verarbeitet.
+						 </span></div>
+					</div>
+				</div>
+								<div class="col ">
+					<div class="colWrapper textCol">
+						<center><img src="images/java.jpg" width="200px"/><h2>RESTful Webservice</h2></center>
+						<div class="text">
+							<span>
+								Wenn das Draftkit das Herz ist, ist der RESTful Webservice das Hirn des Zapfmasters. <br /><br />Er errechnet die gezapfte Menge, kümmert sich um die Datenbank, erstellt die Achievements und sendet PUSH Nachrichten an die Webseite als auch die App.
+							</span>
+						</div>
+					</div>
+				</div>
+								<div class="col ">
+					<div class="colWrapper textCol">
+						<center><img src="images/about/zapfen.jpg" width="200px"/><h2>Webclient</h2></center>
+						<div class="text"><span>
+							Diese Webapp ist eine mögliche Implementierung des Webservices und stellt die gezapfte Menge, Statistiken, Challenges, Achievements, personalisierte Statistiken, Ranglisten und vieles mehr übersichtlich im Browser dar. 
+							<br /><br />
+						 </span></div>
+					</div>
+				</div>
+				<div class="col ">
+					<div class="colWrapper textCol">
+						<center><img src="images/app.PNG" width="200px"/><h2>App</h2></center>
+						<div class="text"><span>Die offizielle Zapfmaster2000 App für Android/ iOS/ Windows Phone zeigt Aktuelle Zapfvorgänge, Statistiken und Challenges an. Desweiteren ist es damit möglich, Mittrinker zu einer ultimativen Challenge herauszufordern!
+						 </span></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="about" class="cont3 navi_content">
+		<div class="colContainer">
+		<div class="contentContainer">
+			<div class="headline"><h1>Über:</h1></div>
+			<div class="content">
+					<div class="text story">
+						<div class="head">Idee</div>
+						<div class="image">
+							<img src="images/about/gruppe.jpg" width="300"/>
+						</div>
+						<div class="contentText">
+							
+							<span class="headl">Die Ideenfindung</span>
+							<div class="trennerContainer">
+								<div class="trenner"></div>
+							</div>
+							<p>Eine Gruppe junger Männer, eine Mischung aus angehenden Mathe- und Informatikern, Wirtschaftswissenschaftlern und Ingenieuren, suchte nach einer Möglichkeit, wie sich auch im Stadium des fortgeschrittenen Bierkonsums jederzeit überprüfen ließ, wer am meisten getrunken hatte.</p>
+						</div>
+						<div class="contentText2"><p> Das simple Zählen von geleerten Biergläsern erwies sich oft als zu manipulationsanfällig. Eine brauchbare Alternative existierte jedoch nicht.</p>
+						<p> Mit diesem Zustand konnten und wollten sie sich nicht zufrieden geben. Denn das Verlangen nach einem validen Instrument zum Nachweis ihres genauen Alkoholkonsums war zu groß. Mit anderen Worten: Selbst Nerds wollen wissen, wer von ihnen den Längsten hat! </p>
+						<p>Aus wenig Geld, aber viel Motivation und Intellekt entstand letztlich etwas Großes: Der Zapfmaster2000.</p>
+							</div>					
+					</div>
+					<div class="text story" style="display:none">
+						<div class="head">Funktionsweise</div>
+						<div class="image">
+							<img src="images/about/box.jpg" width="300"/>
+						</div>
+						<div class="contentText">
+							<span class="headl">Die RFID- Karte...</span>
+							<div class="trennerContainer">
+								<div class="trenner"></div>
+							</div>
+							<p>...oder der Schlüssel zur ZM2K Welt! Es ist nichts leichter als das: </p>
+							<ol>
+								<li>PC, Bildschirm bzw. Beamer und Zapfmaster-Sensor an Zapfanlage anschließen. </li>
+								<li>Persönliche ID-Karte auf den Zapfmaster-Sensor legen.</li>
+								<li> Zapfen.</li>
+								<li>Trinken und mit Freunden an den Statistiken erfreuen!</li>
+							</ol>
+						</div>
+					</div>
+					<div class="text story" style="display:none">
+						<div class="head">Beertracking</div>
+						<div class="image">
+							<img src="images/about/zapfen.jpg" width="300"/>
+						</div>
+						<div class="contentText">
+						
+						<span class="headl">Sofortiges Update</span>
+						<div class="trennerContainer">
+							<div class="trenner"></div>
+						</div>
+						<p>Sogar während des Zapfens wird die aktuell gezapfte Menge auf der Webseite, als auch auf der App per Server Push angezeigt.</p>
+								<p>Damit können eure Freunde in Echtzeit jederzeit sehen, ob/wann ihr gezapft habt, wenn ihr zapft und wann ihr gezapft haben werdet!</p>
+						</div>
+					</div>
+					<div class="text story" style="display:none">
+						<div class="head">Achievements</div>
+						<div class="image">
+							<img src="images/about/box.jpg" width="300"/>
+						</div>
+						<div class="contentText">
+							<span class="headl">Erfolge</span>
+							<div class="trennerContainer">
+								<div class="trenner"></div>
+							</div>
+							<p>Erster Trinker des Abends? „Der frühe Vogel kann mich mal.“</p>
+	
+								<p>Der aktivste Zapfer der letzten 60 Minuten? „Trinker der Stunde“</p>
+								
+								<p>…</p>
+						</div>
+						<div class="contentText2">
+							<p>Dies sind nur einige Beispiele von großartigen Achievements, sprich Erfolge, die fleißige Trinker im Laufe des Abends sammeln können. Diese motivieren die Teilnehmer zu immer neuem Nachzapfen, um immer neue Achievements zu erreichen. Stets steht die Frage im Raum: Schafft es diesmal endlich jemand bis zum „Harald Juhnke“?		</p>				
+						</div>
+					</div>
+					<div class="text story" style="display:none">
+						<div class="head">Challenges</div>
+						<div class="image">
+							<img src="images/about/challenges.jpg" width="300"/>
+						</div>
+						<div class="contentText">
+						
+						<span class="headl">Herausforderungen</span>
+						<div class="trennerContainer">
+							<div class="trenner"></div>
+						</div>
+						<p>Der Zapfmaster wird stetig verbessert. Die neueste Idee der Entwickler ist ebenso simpel wie genial:
+						<br /> Statt nur alle gegen alle antreten zu lassen, wurde die Zapfmastersoftware um ein weiteres Element erweitert. Nunmehr haben die Teilnehmer die Möglichkeit, zu direkten Konkurrenten zu werden und sich gegenseitig herauszufordern. </p>
+						</div>
+					<div class="contentText2">
+						<p><br />Trinker A fordert Trinker B via App auf seinem Smartphone zum Duell auf: Wer schafft den größtmöglichen Bierkonsum in den nächsten 10, 30 oder 60 Minuten? Dem Sieger ist der Respekt seiner Mittrinker, die natürlich den Wettstreit in Echtzeit auf dem am Zapfmaster angeschlossenen Bildschirm verfolgen können, sicher.	</p>					</div>
+						
+					</div>
+					<div class="navi">
+						<ul>
+							<li class="active"><span>Idee</span></li>
+							<li><span>Funktionsweise</span></li>
+							<li><span>Bier Tracking</span></li>
+							<li><span>Achievements</span></li>
+							<li><span>Challenges</span></li>
+						</ul>
+					</div>
+			</div>
+		</div>
+		</div>
+	</div>
+	<div id="zmlite" class="cont2 shadowInset navi_content">
+		
+		<div class="colContainer">
+		<div><h1>Zapfmaster Lite</h1></div>
+			<div>
+				coming soon...
+			</div>
+		</div>
+	</div>
+	<div id="merchandise" class="cont3 navi_content">
+		
+		<div class="colContainer">
+		<div><h1>T-Shirts, Facebook, Twitter</h1></div>
+			<div>
+				<div class="col " >
+					<div class="colWrapper textCol" style="width:272px">
+						<center><img src="images/zmtshirt.png" width="200px"/><h2>T-Shirt Shop</h2></center>
+						<div class=""><span class="shirt">
+							Bestelle dein Zapfmaster2000 T-Shirt noch heute unter <a href="http://zapfmaster.spreadshirt.de" target="_blank">zapfmaster.spreadshirt.de</a> zu einem noch akzeptablen Preis. <br /><br /> Es gibt eine breite Auswahl von Kochschürze über Umhängetasche bis Shorts!
+						 </span></div>
+					</div>
+				</div>
+				<div class="col" >
+					<div class="colWrapper textCol facebook" style="width:272px">
+						<iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FZapfmaster2000&amp;width=272&amp;height=380&amp;colorscheme=light&amp;show_faces=false&amp;border_color&amp;stream=true&amp;header=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:272px; height:427px;" allowTransparency="true"></iframe>
+					</div>
+				</div>
+			
+					<div class="col " >
+					<div class="colWrapper textCol twitter" style="width:272px">
+						<a class="twitter-timeline" href="https://twitter.com/Zapfmaster2000" data-widget-id="263322973845454848" style="width:240px;">Tweets by @Zapfmaster2000</a>
+						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="earlybird" class="cont2 shadowInset navi_content">
+		
+		<div class="colContainer">
+		<div><h1>Early Bird</h1></div>
+			<div>
+	coming soon...
+			</div>
+		</div>
+	</div>
+	<div class="footer shadowTop">
+		<!--<img src="images/zapfmaster2000.png" height="100"/>	-->
+		<center><span style="color:white">Impressum: &copy; Ben Lenser, Lindenstr. 32, 12555 Berlin,<a href="mailto:mail@zapfmaster2000.de"> mail@zapfmaster2000.de</a>, Alle Rechte vorbehalten.</span></center>
+	</div>
+</div>
+
+<!-- @see  https://github.com/blog/273-github-ribbons-->
+<!-- <a href="https://github.com/thomaskipar/Zapfmaster2000"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png" alt="Fork me on GitHub"></a>
+ -->
+</body>
+</html>
